@@ -21,7 +21,15 @@ function submitAnswers() {
         }
     }
 
+    var answers = ["b", "c","c"];
+    for (i = 1; i <= total; i++) {
+        if (eval('q' + i) === answers[i-1]) {
+            score++;
+        }
+    }
 
+    var results = document.getElementById('results');
+    results.innerHTML = '<h3> You scored ' + score + ' out of ' + total + ' points!';
 
     return false;
 }
