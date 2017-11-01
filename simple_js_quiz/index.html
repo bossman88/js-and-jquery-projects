@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Simple Javascript Quiz</h1>
+        <p>Test your knowledge in <strong>Javascript fundamentals</strong></p>
+    </header>
+    <section>
+        <div id="results">
+
+        </div>
+        <form action="" name="quizForm" onsubmit="return submitAnswers()">
+            <h3>1. In which HTML elements do we put in Javascript code?</h3>
+            <input type="radio" name="q1" value="a" id="q1a">a. &lt;js&gt; <br>
+            <input type="radio" name="q1" value="b" id="q1b">b. &lt;script&gt; <br>
+            <input type="radio" name="q1" value="c" id="q1c">c. &lt;jsc&gt; <br>
+            <input type="radio" name="q1" value="d" id="q1d">d. &lt;link&gt; <br>
+
+            <h3>2. Name alert command</h3>
+            <input type="radio" name="q2" value="a" id="q2a">a. echo() <br>
+            <input type="radio" name="q2" value="b" id="q2b">b. print() <br>
+            <input type="radio" name="q2" value="c" id="q2c">c. alert() <br>
+            <input type="radio" name="q2" value="d" id="q2d">d. push() <br>
+
+            <h3>3. debug  command?</h3>
+            <input type="radio" name="q3" value="a" id="q3a">a. var_dump() <br>
+            <input type="radio" name="q3" value="b" id="q3b">b. debug() <br>
+            <input type="radio" name="q3" value="c" id="q3c">c. console.log() <br>
+            <input type="radio" name="q3" value="d" id="q4d">d. wtf() <br>
+            <br><br>
+            <button type="submit" class="btn btn-primary" value="Submit Answers">Submit answer</button>
+        </form>
+    </section>
+    <footer>
+        <p>Copyright &copy; ME 2k17</p>
+    </footer>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</body>
+</html>
